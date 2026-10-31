@@ -1,0 +1,1722 @@
+{
+  "version": 1,
+  "source": "https://www.polymtl.ca/programmes/programmes/baccalaureat-en-genie-physique",
+  "sourceDate": "2026-10-23",
+  "colours": {
+    "physics": "#0070C0",
+    "math": "#FF0000",
+    "engineering": "#00B050",
+    "project": "#FFFF00"
+  },
+  "courses": [
+    {
+      "code": "ELE3601",
+      "title": "Introduction aux circuits électriques",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "MTH1115"
+        ],
+        [
+          "PHS1102"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "engineering",
+      "description": "Circuits continus et alternatifs, lois de Kirchhoff, transitoires, transformée de Laplace, réponse en fréquence et amplificateurs opérationnels.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "INF1005D",
+      "title": "Programmation procédurale en Python",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H",
+        "E"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "engineering",
+      "description": "Algorithmes, fonctions, structures de données, fichiers, tests et bibliothèques scientifiques en Python.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH1008",
+      "title": "Algèbre linéaire appliquée",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H",
+        "E"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "math",
+      "description": "Espaces vectoriels, factorisations matricielles, projections, valeurs propres, décomposition en valeurs singulières et applications.",
+      "notes": [
+        "MTH0102 préparatoire est exigé seulement pour les étudiants concernés."
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH1106",
+      "title": "Calcul avancé pour le génie",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H",
+        "E"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "math",
+      "description": "Calcul multivariable, gradient, optimisation, intégrales multiples et théorèmes du calcul vectoriel.",
+      "notes": [
+        "MTH0102 et MTH0103 préparatoires sont exigés seulement pour les étudiants concernés."
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH1115",
+      "title": "Équations différentielles",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H",
+        "E"
+      ],
+      "prerequisites": [
+        [
+          "MTH1007",
+          "MTH1008"
+        ],
+        [
+          "MTH1101",
+          "MTH1105",
+          "MTH1106"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "math",
+      "description": "Équations différentielles et systèmes, stabilité, transformée de Laplace, séries de Fourier et introduction aux EDP.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH2120",
+      "title": "Analyse appliquée",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "MTH1102"
+        ],
+        [
+          "MTH1115"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "math",
+      "description": "Analyse complexe, fonctions analytiques, résidus, transformées de Laplace, de Fourier et en z, convolution et échantillonnage.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH2210A",
+      "title": "Calcul scientifique pour ingénieurs",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H",
+        "E"
+      ],
+      "prerequisites": [
+        [
+          "MTH1110",
+          "MTH1115"
+        ]
+      ],
+      "corequisites": [
+        [
+          "INF1005"
+        ]
+      ],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "math",
+      "description": "Interpolation, différentiation et intégration numériques, résolution d'équations et de systèmes, discrétisation des EDO et analyse des erreurs.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH2303",
+      "title": "Probabilités et statistique",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "MTH1007",
+          "MTH1008"
+        ],
+        [
+          "MTH1102",
+          "MTH1106"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "math",
+      "description": "Probabilités, variables et vecteurs aléatoires, processus stochastiques, estimation, intervalles de confiance et tests d'hypothèses.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH2718",
+      "title": "Méthodes mathématiques de la physique",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "MTH1115"
+        ],
+        [
+          "MTH2120"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "math",
+      "description": "EDP physiques, fonctions de Green, problèmes de Sturm–Liouville, fonctions spéciales et introduction à la théorie des groupes.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS1101",
+      "title": "Mécanique pour ingénieurs",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H",
+        "E"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Statique et dynamique des particules et des corps rigides, forces, moments, travail, énergie et quantité de mouvement.",
+      "notes": [
+        "MTH0102, MTH0103 et PHS0101 préparatoires sont exigés seulement pour les étudiants concernés."
+      ],
+      "duration": 1
+    },
+    {
+      "code": "PHS1102",
+      "title": "Champs électromagnétiques",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [
+        [
+          "MTH1102",
+          "MTH1106"
+        ]
+      ],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Électrostatique, magnétostatique, induction, matériaux, équations de Maxwell et applications aux dispositifs électriques.",
+      "notes": [
+        "PHS0102 préparatoire est exigé seulement pour les étudiants concernés."
+      ],
+      "duration": 1
+    },
+    {
+      "code": "PHS1103",
+      "title": "Physique atomique et moléculaire",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Premiers concepts quantiques, structure des atomes et molécules, spectres, liaisons et éléments de physique nucléaire.",
+      "notes": [
+        "CHE0501, MTH0103 et PHS0102 préparatoires sont exigés seulement pour les étudiants concernés."
+      ],
+      "duration": 1
+    },
+    {
+      "code": "PHS1105",
+      "title": "Thermodynamique physique",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "MTH1106"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Principes thermodynamiques, énergie, entropie, machines thermiques, potentiels et transitions de phase.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS1205",
+      "title": "HPR – Travail en équipe collaboratif",
+      "credits": 2,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [
+        [
+          "PHS1903"
+        ]
+      ],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Communication interpersonnelle, rétroaction, résolution des conflits, dynamique des groupes et collaboration.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS1903",
+      "title": "Projet initial de conception en génie physique",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [
+        [
+          "PHS1205"
+        ]
+      ],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "project",
+      "description": "Projet d'équipe : définition du problème, conception, prototypage, validation, documentation et présentation.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS2107",
+      "title": "Mécanique supérieure",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "MTH1115"
+        ],
+        [
+          "PHS1101"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Dynamique des corps rigides, calcul des variations, formulations de Lagrange et Hamilton, oscillations et relativité restreinte.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS2108",
+      "title": "Mécanique quantique I",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "PHS1103"
+        ],
+        [
+          "PHS2107"
+        ]
+      ],
+      "corequisites": [
+        [
+          "MTH2718"
+        ]
+      ],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Fonctions d'onde, équation de Schrödinger, postulats, observables, puits et barrières de potentiel et calcul numérique.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS2111",
+      "title": "Physique statistique",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "PHS1105"
+        ],
+        [
+          "MTH2303"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Ensembles statistiques, distributions classiques et quantiques, transitions de phase et modèles de gaz et de solides.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS2112",
+      "title": "Fondements et applications de l'électromagnétisme",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "MTH1115"
+        ],
+        [
+          "PHS1102"
+        ]
+      ],
+      "corequisites": [
+        [
+          "MTH2718"
+        ]
+      ],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Potentiels électromagnétiques, propagation dans la matière, lignes de transmission, guides d'ondes, cavités et conversion d'énergie.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS2114",
+      "title": "Science et génie des matériaux",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "PHS1103"
+        ],
+        [
+          "PHS1105"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Structures, microstructures, propriétés, diagrammes de phases, procédés de fabrication, dégradation et choix des matériaux.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS2223",
+      "title": "Optique moderne",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "MTH2120"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Optique géométrique, formation des images, cohérence, interférences, diffraction et optique de Fourier.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS2601",
+      "title": "Risques pour la santé en génie physique",
+      "credits": 1,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Risques liés aux rayonnements, lasers, hautes tensions et produits chimiques; prévention et sécurité au laboratoire.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS2903",
+      "title": "Projet de métrologie physique",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 30,
+      "group": "required",
+      "category": "project",
+      "description": "Conception d'un système de mesure, acquisition de données, étalonnage, bruit, analyse des incertitudes et rapport technique.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS3000",
+      "title": "Communication écrite et orale",
+      "credits": 1,
+      "terms": [
+        "A",
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [
+        [
+          "PHS3903"
+        ]
+      ],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Développement et évaluation des compétences en rédaction technique et en présentation orale; portfolio de communication.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS3104",
+      "title": "Mécanique quantique II",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "PHS2108"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Spin, systèmes composites, intrication, méthodes perturbatives et variationnelles, applications atomiques et optiques.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS3105",
+      "title": "Cinétique",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "PHS2111"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Cinétique des réactions, diffusion, transformations de phase et processus aux surfaces et interfaces.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS3301",
+      "title": "Physique du solide I",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "PHS2111"
+        ],
+        [
+          "PHS2114"
+        ]
+      ],
+      "corequisites": [
+        [
+          "PHS3104"
+        ]
+      ],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Structure des solides, phonons, électrons, bandes d'énergie, semi-conducteurs, transport et jonction PN.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS3302",
+      "title": "Physique du solide II",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "PHS2112"
+        ],
+        [
+          "PHS3301"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Réponses diélectriques et magnétiques, polarisation, ferroélectricité, dynamique de spin et transport électronique.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS3903",
+      "title": "Projet de simulation",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "MTH2210A"
+        ]
+      ],
+      "corequisites": [
+        [
+          "PHS3000"
+        ]
+      ],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "project",
+      "description": "Projet d'équipe intégrant des méthodes numériques pour simuler des systèmes physiques complexes et non linéaires.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS3910",
+      "title": "Techniques expérimentales et instrumentation",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "PHS2903"
+        ],
+        [
+          "ELE3601"
+        ]
+      ],
+      "corequisites": [
+        [
+          "PHS2223"
+        ]
+      ],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Planification d'expériences, acquisition, bruit, contrôle, microcontrôleurs, fabrication et instrumentation optique.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8220",
+      "title": "Spectroscopie",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "PHS2223"
+        ],
+        [
+          "PHS3104"
+        ],
+        [
+          "PHS3301"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "required",
+      "category": "physics",
+      "description": "Interaction lumière–matière, instruments et spectres rotationnels, vibrationnels, électroniques et des solides.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "SSH3101",
+      "title": "Analyse sociologique de la technologie",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H",
+        "E"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 30,
+      "group": "required",
+      "category": "engineering",
+      "description": "Relations entre technologies et société, institutions, pouvoir, environnement, innovation et acceptabilité sociale.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "SSH3201",
+      "title": "Économique de l'ingénieur",
+      "credits": 3,
+      "terms": [
+        "A",
+        "H",
+        "E"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 27,
+      "group": "required",
+      "category": "engineering",
+      "description": "Coûts, financement, actualisation, rentabilité des investissements et analyse du risque des projets d'ingénierie.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "SSH3501",
+      "title": "Éthique appliquée à l'ingénierie",
+      "credits": 2,
+      "terms": [
+        "A",
+        "H",
+        "E"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 40,
+      "group": "required",
+      "category": "engineering",
+      "description": "Responsabilités professionnelles, déontologie et raisonnement éthique appliqués à des situations d'ingénierie.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "GBM8871",
+      "title": "Biomicrosystèmes",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "MTH1115"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Microfluidique, transport, fonctionnalisation des surfaces, laboratoires sur puce et conception de biocapteurs.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8204",
+      "title": "Optoélectronique",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "PHS3301"
+        ],
+        [
+          "PHS2223"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Fibres, émetteurs, photodétecteurs, composants de communication et effets optiques non linéaires.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8205",
+      "title": "Ondes guidées en photonique",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [
+        [
+          "PHS2108"
+        ],
+        [
+          "MTH2210"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Modes guidés, couplage, fibres, composants photoniques et simulation par éléments finis.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8205E",
+      "title": "Guided waves in photonics",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "PHS2108"
+        ],
+        [
+          "MTH2210"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Optical waveguides, guided modes, coupling, photonic components and finite-element modelling. Cours en anglais.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8280E",
+      "title": "Lasers",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "PHS2223"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Gain, résonateurs, seuils, modes, dynamique et lasers à semi-conducteurs. Cours en anglais.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8302",
+      "title": "Dispositifs électroniques",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "PHS3301"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Jonctions, diodes, transistors, hétérostructures, modélisation et caractérisation électrique des composants.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8303E",
+      "title": "Sustainable Electronics",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Cycle de vie des dispositifs, ressources de fabrication, écoconception, consommation et gestion des déchets électroniques. Cours en anglais.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8310",
+      "title": "Microfabrication",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Lithographie, dépôts de couches minces, gravure, procédés micro- et nanométriques et travaux de laboratoire.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8310E",
+      "title": "Microfabrication",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Micro- and nanofabrication, lithography, thin films, etching and laboratory work. Cours en anglais.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8311",
+      "title": "Microsystèmes",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "PHS8310"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Conception de microcapteurs et microactionneurs; séquences de fabrication et compatibilité des procédés.",
+      "notes": [
+        "Le préalable PHS8310 peut être remplacé par un équivalent reconnu. Les versions linguistiques restent des cours distincts; aucune équivalence automatique."
+      ],
+      "duration": 1
+    },
+    {
+      "code": "PHS8603",
+      "title": "Énergie et environnement",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "PHS1105"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Impacts environnementaux et sanitaires des filières de production et de conversion d'énergie.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8604",
+      "title": "Conversion directe de l'énergie",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [
+        [
+          "PHS1102"
+        ],
+        [
+          "PHS1105"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Limites thermodynamiques et conversion magnétohydrodynamique, thermoélectrique, photovoltaïque et électrochimique.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8604E",
+      "title": "Direct Energy Conversion",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "PHS1102"
+        ],
+        [
+          "PHS1105"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Energy-conversion limits, thermoelectrics, photovoltaics, fuel cells and comparative efficiencies. Cours en anglais.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "GBM8802",
+      "title": "Biophotonique",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [
+        [
+          "PHS2223",
+          "GBM3805"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Optique des tissus, microscopie, imagerie, diagnostic et traitements utilisant la lumière.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "PHS8810E",
+      "title": "Physics of Biomedical Nanotechnologies",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [
+        [
+          "PHS2112"
+        ],
+        [
+          "PHS3301"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "technical",
+      "category": "physics",
+      "description": "Nanomatériaux plasmoniques, semi-conducteurs et magnétiques pour la détection, l'imagerie et la thérapie. Cours en anglais.",
+      "notes": [
+        "La page exclut le cumul avec GBM8810E (hors catalogue de ce planificateur)."
+      ],
+      "duration": 1
+    },
+    {
+      "code": "PHS8972",
+      "title": "Projet intégrateur final",
+      "credits": 6,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "project",
+      "category": "project",
+      "description": "Projet de conception en équipe répondant à un problème industriel ou de recherche. Commence à l'automne et se termine à l'hiver suivant, pour six crédits au total.",
+      "notes": [
+        "Deux trimestres consécutifs : automne puis hiver. La charge affichée est répartie 3 + 3 pour la planification; les 6 crédits ne sont acquis qu'à la fin."
+      ],
+      "duration": 2
+    },
+    {
+      "code": "MTH8107",
+      "title": "Mathématiques de l'apprentissage profond",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Algèbre linéaire, probabilités, grandes matrices et optimisation à la base des méthodes d'apprentissage profond.",
+      "notes": [
+        "MTH2210A et un cours de statistique de la série MTH2302 ou équivalent sont recommandés, sans être des préalables obligatoires."
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH3141",
+      "title": "Mathématiques de génie : un récit appliqué",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "MTH1102",
+          "MTH1102D",
+          "MTH1102H",
+          "MTH1106"
+        ],
+        [
+          "MTH1110",
+          "MTH1115",
+          "MTH1115D"
+        ],
+        [
+          "MTH2302A",
+          "MTH2302B",
+          "MTH2302C",
+          "MTH2302D",
+          "MTH2303",
+          "MTH2304"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Histoire des grandes découvertes mathématiques et de leurs applications en génie.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH8211",
+      "title": "Algèbre linéaire numérique appliquée",
+      "credits": 3,
+      "terms": [
+        "E"
+      ],
+      "prerequisites": [
+        [
+          "MTH1007"
+        ],
+        [
+          "MTH2210A",
+          "GCH2545"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Grands systèmes, moindres carrés, valeurs propres, matrices creuses, préconditionnement et calcul parallèle; projet en Julia.",
+      "notes": [
+        "La note demande MTH1007 et un cours de la série MTH2210 (ou GCH2545 ou équivalents). MTH2210A est le cours de cette série présent au catalogue."
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH3400",
+      "title": "Analyse mathématique pour ingénieurs",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [
+        [
+          "MTH1007"
+        ],
+        [
+          "MTH1101"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Topologie, suites et séries, intégrale de Lebesgue, espaces fonctionnels, calcul différentiel, analyse complexe et structures algébriques.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH8207",
+      "title": "Mathématiques des éléments finis",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Espaces fonctionnels, formulations variationnelles, éléments finis, convergence et programmation d'un solveur.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH8515",
+      "title": "Analyse mathématique avancée pour ingénieurs",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Calcul des variations, espaces de Banach, Hilbert et Sobolev, solutions faibles et formulations de problèmes aux limites.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH8301",
+      "title": "Planification et analyse statistique d'expériences",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [
+        [
+          "MTH2302B"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Plans expérimentaux, analyse de variance, plans factoriels, surfaces de réponse et optimisation des expériences.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH8302",
+      "title": "Analyse de régression et analyse de variance",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Régressions, diagnostic des modèles, sélection de variables, effets expérimentaux et analyse multivariée.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH8303",
+      "title": "Processus stochastiques",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Processus gaussiens, chaînes de Markov, mouvement brownien, processus de Poisson, renouvellement et files d'attente.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH8408",
+      "title": "Méthodes d'optimisation et contrôle optimal",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Optimisation avec ou sans contraintes, méthodes numériques, calcul des variations et commande des systèmes dynamiques.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH8414",
+      "title": "Outils de recherche opérationnelle en génie",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Programmation mathématique, flots, heuristiques, métaheuristiques et logiciels d'optimisation pour l'ingénierie.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH8415",
+      "title": "Fondements de recherche opérationnelle",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "MTH1007"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Optimisation linéaire, non linéaire et entière, graphes, réseaux, problèmes de transport et applications.",
+      "notes": [
+        "La page exclut les étudiants ayant suivi MTH2402 ou MIN3510 (hors catalogue de ce planificateur)."
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH8418",
+      "title": "Optimisation sans dérivées",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Optimisation de modèles boîte noire, contraintes, convergence, modèles substituts et problèmes robustes ou multiobjectifs.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH8442",
+      "title": "Ordonnancement de la production",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Ordonnancement d'ateliers et de projets, programmation mathématique, algorithmes exacts et méthodes heuristiques.",
+      "notes": [],
+      "duration": 1
+    },
+    {
+      "code": "MTH6210",
+      "title": "Estimation d'erreur : théorie et pratique",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [
+        [
+          "MTH6207"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Évaluer la précision des solutions numériques et adapter les maillages ou les pas de calcul. Estimation a posteriori pour les EDO et les EDP, extrapolation, méthodes adjointes et analyse de sensibilité, avec applications aux fluides et aux modèles multi-échelles.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/estimation-derreur-theorie-et-pratique"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6305A",
+      "title": "Reconnaissance de formes : approches statistiques",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Construire des classificateurs à partir de modèles probabilistes et de caractéristiques extraites des données. Décision statistique, estimation de densités, séparateurs linéaires et réseaux multicouches entraînés par rétropropagation; évaluation du risque de classification.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/reconn-de-formes-approches-statistiques"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6306",
+      "title": "Analyse statistique des séries chronologiques",
+      "credits": 1,
+      "terms": [],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Décrire et prévoir l'évolution de données temporelles avec la démarche de Box-Jenkins. Choix et ajustement de modèles autorégressifs, à moyenne mobile et ARIMA, y compris leurs variantes saisonnières.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/analyse-statistique-des-series-chronologiques"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6311",
+      "title": "Optimisation combinatoire",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Résoudre des problèmes discrets difficiles à l'aide d'heuristiques et de métaheuristiques. Complexité, choix des voisinages, recuit, recherche taboue et méthodes évolutives; implantation efficace et comparaison expérimentale des algorithmes sur des réseaux, horaires et problèmes de production.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/optimisation-combinatoire"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6312",
+      "title": "Méthodes statistiques d'apprentissage",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Analyser des données et choisir des modèles prédictifs avec des outils statistiques. Sélection des variables, régressions régularisées ou non paramétriques, validation croisée, mélanges gaussiens et algorithme EM; arbres, ensembles et approches bayésiennes pour différents cadres d'apprentissage.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/methodes-statistiques-dapprentissage"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6404",
+      "title": "Programmation en nombres entiers",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Formuler et résoudre des programmes à variables entières. Exploration par séparation et évaluation, géométrie des polyèdres, coupes et relaxations; décompositions de Dantzig-Wolfe et de Benders, génération de colonnes. Applications au sac à dos et aux tournées du commis voyageur.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/programmation-en-nombres-entiers"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6405",
+      "title": "Théorie des graphes et des réseaux",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Modéliser des systèmes par des graphes et étudier leurs chemins, arbres et cycles. Algorithmes de connexité, de cheminement et de flot; coloration, couplages, cliques et ensembles stables. Classes particulières de graphes et applications au transport et à la planification.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/theorie-des-graphes-et-des-reseaux"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6406",
+      "title": "Modélisation en recherche opérationnelle",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Traduire des situations d'ingénierie en modèles d'optimisation utilisant réseaux, programmation mathématique et décomposition. Études de tournées, d'affectation d'équipages, d'horaires et de production; conception de réseaux de transport et gestion des opérations.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/modelisation-en-recherche-operationnelle"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6412B",
+      "title": "Implémentation d'algorithmes de recherche opérationnelle",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Concevoir, programmer et analyser des algorithmes d'optimisation. Structures de données et coûts asymptotiques; chemins, arbres, flots, tri et ordonnancement. Techniques gloutonnes, programmation dynamique, énumération et randomisation, avec étude de problèmes NP-complets.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/implementation-dalgo-de-rech-operationnel"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6415",
+      "title": "Optimisation stochastique",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Prendre des décisions en présence d'incertitude et de risque. Modèles dynamiques déterministes ou probabilistes, scénarios et approximations; filtrage de Kalman, décisions markoviennes et programmation stochastique avec recours.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/optimisation-stochastique"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6416",
+      "title": "Optimisation avancée",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [
+        [
+          "MTH6403",
+          "MTH6408A"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Étudier des problèmes d'optimisation non lisses, sans dérivées, convexes et non convexes. Recherche directe, calcul de Clarke et convergence; dualité et méthodes intérieures. Régularisation des problèmes inverses et traitement de contraintes particulières, avec applications en commande et en conception.",
+      "notes": [
+        "Un cours équivalent à MTH6403 ou MTH6408A peut satisfaire le préalable; utiliser une équivalence explicite dans le plan.",
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/optimisation-avancee"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6417",
+      "title": "Optimisation des ressources en santé",
+      "credits": 3,
+      "terms": [
+        "A"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Optimiser l'organisation des services de santé et des hôpitaux. Modèles pour les effectifs, les horaires, les lits et les salles opératoires; résolution à l'aide de programmes entiers et d'algorithmes de recherche locale.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/optimisation-des-ressources-en-sante"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6517",
+      "title": "Formalisme et preuves en mathématiques",
+      "credits": 1,
+      "terms": [],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Apprendre à formuler précisément un résultat et à construire sa démonstration. Pratique des raisonnements sur des exemples fondamentaux issus de l'algèbre, de l'analyse, de la topologie et des algorithmes.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/formalisme-et-preuves-en-mathematiques"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6601",
+      "title": "Méthodes de décomposition en optimisation temps réel",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Adapter rapidement les décisions d'optimisation à de nouvelles informations. Affectation de ressources, routage et ordonnancement en ligne; réoptimisation, méthodes primales et décomposition parallèle pour traiter des problèmes de grande dimension.",
+      "notes": [
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/meth-decomposition-optimisation-temps-reel"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH8410",
+      "title": "Méthodes d'optimisation pour les services",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Planifier les effectifs, les horaires et la localisation des services. Modèles entiers, génération de colonnes, contraintes et recherches par voisinages; outils de prévision et de files d'attente. Applications aux transports, aux soins, aux banques et aux services publics.",
+      "notes": [
+        "Préalable publié : MTH2402 ou 70 crédits. Le seuil de crédits des cours 8000 est ignoré dans ce plan; MTH2402 est une alternative, pas une exigence supplémentaire.",
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/methodes-doptimisation-pour-les-services"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH8304",
+      "title": "Apprentissage non supervisé et séries chronologiques",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [
+        [
+          "MTH2302A",
+          "MTH2302B",
+          "MTH2302C",
+          "MTH2302D",
+          "MTH2303"
+        ]
+      ],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Explorer des données multivariées et temporelles. Prévision par lissage et modèles ARIMA, ARCH ou GARCH; méthodes discriminantes, SVM et analyse des correspondances. Réduction par composantes principales, regroupements hiérarchiques et k-moyennes, ainsi que méthodes d'ensemble.",
+      "notes": [
+        "Seuil publié de 70 crédits ignoré dans ce plan; le préalable de probabilités/statistique est conservé.",
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/apprentissage-non-supervise-et-series-chrono"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH6403",
+      "title": "Programmation mathématique I",
+      "credits": 3,
+      "terms": [],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Fondements de la programmation linéaire et non linéaire : simplexe, dualité, sensibilité et convexité. Méthodes de gradient et de Newton, conditions de Kuhn-Tucker et stratégies de résolution sous contraintes; modélisation et applications en ingénierie.",
+      "notes": [
+        "Cours aboli selon le répertoire; celui-ci renvoie à MTH6420. MTH6403 est conservé parce qu’il figure encore dans la liste demandée.",
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/programmation-mathematique-i"
+      ],
+      "duration": 1
+    },
+    {
+      "code": "MTH8808",
+      "title": "Simulation numérique de la propagation des ondes",
+      "credits": 3,
+      "terms": [
+        "H"
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "minimumCredits": 0,
+      "group": "math",
+      "category": "math",
+      "description": "Simuler des équations hyperboliques décrivant la propagation d'ondes. Comparer discrétisations par différences finies, calcul pseudo-spectral avec FFT, Galerkin discontinu et Hermite-Taylor; vérifier cohérence, stabilité et convergence. Lois de conservation non linéaires et programmation d'un solveur.",
+      "notes": [
+        "Préalable publié : MTH2210A, un équivalent ou 70 crédits au baccalauréat. Le seuil des cours 8000 est ignoré dans ce plan; les cours indiqués sont des alternatives, pas des exigences supplémentaires.",
+        "Ajout au bloc de maths du plan personnel depuis la liste de spécialisation de la maîtrise en mathématiques appliquées.",
+        "Fiche source : https://www.polymtl.ca/programmes/cours/simulation-num-de-la-propagation-des-ondes"
+      ],
+      "duration": 1
+    }
+  ],
+  "additionalSources": [
+    {
+      "url": "https://www.polymtl.ca/programmes/programmes/maitrise-recherche-en-mathematiques-appliquees",
+      "section": "Axes et cours de spécialisation > Liste des cours",
+      "date": "2026-10-23",
+      "codes": [
+        "MTH6210",
+        "MTH6305A",
+        "MTH6306",
+        "MTH6311",
+        "MTH6312",
+        "MTH6404",
+        "MTH6405",
+        "MTH6406",
+        "MTH6412B",
+        "MTH6415",
+        "MTH6416",
+        "MTH6417",
+        "MTH6517",
+        "MTH6601",
+        "MTH8410",
+        "MTH8304",
+        "MTH6403",
+        "MTH8808"
+      ]
+    }
+  ]
+}

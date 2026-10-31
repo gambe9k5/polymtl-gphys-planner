@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {loadPlan,savePlan,storageKey} from '../src/storage.ts';
+import {defaultPlan} from '../src/core.ts';
+const memory=new Map<string,string>();
+Object.defineProperty(globalThis,'location',{value:{href:'https://example.github.io/planner/'},configurable:true});
+Object.defineProperty(globalThis,'localStorage',{value:{getItem:(k:string)=>memory.get(k)??null,setItem:(k:string,v:string)=>memory.set(k,v)},configurable:true});
+test('no cache opens empty; edits restore and each project has a separate key',()=>{memory.clear();assert.deepEqual(loadPlan().plan,defaultPlan());const p=defaultPlan();p.name='Saved plan';p.placements.MTH1008={term:'2025-H',status:'completed',grade:'A',notes:'Preserved'};savePlan(p);assert.deepEqual(loadPlan().plan,p);assert.ok(storageKey().endsWith('/planner/'));Object.defineProperty(globalThis,'location',{value:{href:'https://example.github.io/other/'},configurable:true});assert.deepEqual(loadPlan().plan,defaultPlan());Object.defineProperty(globalThis,'location',{value:{href:'https://example.github.io/planner/'},configurable:true})});
+test('corrupt cache is reported without overwriting it',()=>{memory.set(storageKey(),'{bad json');assert.ok(loadPlan().error);assert.equal(memory.get(storageKey()),'{bad json')});
+test('blocked storage returns a recoverable warning and save failure',()=>{Object.defineProperty(globalThis,'localStorage',{get(){throw Error('blocked')},configurable:true});assert.ok(loadPlan().error);assert.deepEqual(loadPlan().plan,defaultPlan());assert.throws(()=>savePlan(defaultPlan()))});
